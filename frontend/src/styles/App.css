@@ -1,0 +1,25 @@
+/* Custom styles for toast notifications */
+.Toastify__toast {
+  border-radius: 8px;
+  font-family: inherit;
+}
+
+.Toastify__toast--error {
+  background: #fff;
+  color: #dc3545;
+  border: 1px solid rgba(220, 53, 69, 0.1);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.Toastify__progress-bar--error {
+  background: #dc3545;
+}
+
+.Toastify__close-button {
+  color: inherit;
+  opacity: 0.7;
+}
+
+.Toastify__close-button:hover {
+  opacity: 1;
+} 
